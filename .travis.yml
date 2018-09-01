@@ -11,8 +11,6 @@ env:
 matrix:
   include:
     - osx_image: xcode9.4
-      env: FASTLANE_LANE=code_coverage FASTLANE_ENV=default
-    - osx_image: xcode9.4
       env: FASTLANE_ENV=ios11_xcode94
     - osx_image: xcode9.4
       env: FASTLANE_ENV=tvos11_xcode9
