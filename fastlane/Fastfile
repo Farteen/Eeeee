@@ -22,7 +22,7 @@ platform :ios do
     scan(
       workspace: "DecorationEye.xcworkspace",
       scheme: "DecorationEyeTests",
-      device: ['iPhone 6']
+      devices: ['iPhone 6']
       )
   end
 end
