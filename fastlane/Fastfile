@@ -19,6 +19,9 @@ platform :ios do
   desc "Description of what the lane does"
 
   lane :ci_commit do |options|
-    scan(shceme: "DecorationEyeTests")
+    scan(
+      workspace: "DecorationEye.xcworkspace",
+      scheme: "DecorationEyeTests"
+      )
   end
 end
