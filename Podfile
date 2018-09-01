@@ -12,6 +12,7 @@ target 'DecorationEye' do
   target 'DecorationEyeTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Kiwi'
   end
 
   target 'DecorationEyeUITests' do
