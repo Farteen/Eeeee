@@ -19,6 +19,6 @@ platform :ios do
   desc "Description of what the lane does"
 
   lane :ci_commit do |options|
-    scan
+    scan(shceme: "DecorationEyeTests")
   end
 end
