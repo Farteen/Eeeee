@@ -21,7 +21,8 @@ platform :ios do
   lane :ci_commit do |options|
     scan(
       workspace: "DecorationEye.xcworkspace",
-      scheme: "DecorationEyeTests"
+      scheme: "DecorationEyeTests",
+      device: ['iPhone 6']
       )
   end
 end
